@@ -8,17 +8,9 @@ class Person {
     get_name() {
         console.log(this.name);
     }
-    get_age() {
-        console.log(this.age);
-    }
 
-    set_name(name) {
-        this.name=name;
-        console.log(this.name);
-    }
     set_age(age) {
         this.age=age;
-        console.log(this.age);
     }
 }
 
